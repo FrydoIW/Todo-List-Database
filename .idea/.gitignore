@@ -1,35 +1,29 @@
-# ------------------------------
 # IntelliJ IDEA
-# ------------------------------
 .idea/
 *.iml
 out/
 *.iws
 
-# ------------------------------
-# Maven
-# ------------------------------
-target/
+# Maven - ignore all target folders in any subdirectory
+**/target/
+
+# Maven wrapper
 !.mvn/wrapper/maven-wrapper.jar
 .mvn/
+
+# Logs
 log/
 logs/
 
-# ------------------------------
 # OS generated files
-# ------------------------------
 .DS_Store
 Thumbs.db
 
-# ------------------------------
 # Java
-# ------------------------------
 *.class
 *.jar
 *.war
 *.ear
 
-# ------------------------------
 # Misc
-# ------------------------------
 *.log
