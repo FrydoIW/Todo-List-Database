@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="" />
+    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="git merge origin main">
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/AplikasiTodolist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/entity/Todolist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/repository/TodoListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/repository/TodolListRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/service/TodoListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/service/TodoListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/service/TodoListServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/view/TodoListViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/util/InputUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/view/TodoListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/org/example/App.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PERSONAL PROJECT/Java Database To Do List/To Do List Database/TodoList-Database/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +53,34 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.AplikasiTodolist">
+    <configuration name="AplikasiTodolist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AplikasiTodolist" />
+      <module name="TodoList-Database" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AplikasiTodolist" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,8 +89,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762632606651</updated>
-      <workItem from="1762632607779" duration="593000" />
+      <workItem from="1762632607779" duration="1454000" />
     </task>
+    <task id="LOCAL-00001" summary="git merge origin main">
+      <option name="closed" value="true" />
+      <created>1762633372574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762633372575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git merge origin main" />
+    <option name="LAST_COMMIT_MESSAGE" value="git merge origin main" />
   </component>
 </project>
