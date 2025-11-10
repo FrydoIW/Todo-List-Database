@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="Add project from existing source">
+    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="Setting Hikari-Cp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/AplikasiTodolist.java" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/AplikasiTodolist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/repository/TodolListRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/repository/TodolListRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/service/TodoListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/service/TodoListServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/view/TodoListViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/src/main/java/test/view/TodoListViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/AplikasiTodolist.class" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/AplikasiTodolist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/repository/TodolListRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/repository/TodolListRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/test/service/TodoListServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/test/service/TodoListServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/test/view/TodoListViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/To Do List Database/TodoList-Database/target/classes/test/view/TodoListViewTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,7 @@
       <recent name="D:\PERSONAL PROJECT\Java Database To Do List\To Do List Database\TodoList-Database\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseUtilTest">
+  <component name="RunManager" selected="JUnit.TodoListRepositoryImplTest">
     <configuration name="AplikasiTodolist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AplikasiTodolist" />
       <module name="TodoList-Database" />
@@ -91,8 +98,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoListRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImplTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoListRepositoryImplTest" />
+        <item itemvalue="JUnit.TodoListRepositoryImplTest.testAdd" />
         <item itemvalue="JUnit.DatabaseUtilTest" />
         <item itemvalue="Application.AplikasiTodolist" />
         <item itemvalue="Application.App" />
@@ -110,7 +150,7 @@
       <workItem from="1762632607779" duration="2204000" />
       <workItem from="1762745413979" duration="1192000" />
       <workItem from="1762758699462" duration="7000" />
-      <workItem from="1762792726861" duration="1508000" />
+      <workItem from="1762792726861" duration="3764000" />
     </task>
     <task id="LOCAL-00001" summary="git merge origin main">
       <option name="closed" value="true" />
@@ -128,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762634137842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setting Hikari-Cp">
+      <option name="closed" value="true" />
+      <created>1762796196535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762796196535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git merge origin main" />
     <MESSAGE value="Add project from existing source" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project from existing source" />
+    <MESSAGE value="Setting Hikari-Cp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting Hikari-Cp" />
   </component>
 </project>

@@ -2,13 +2,17 @@ import repository.TodoListRepository;
 import repository.TodolListRepositoryImpl;
 import service.TodoListService;
 import service.TodoListServiceImpl;
+import util.DatabaseUtil;
 import view.TodoListView;
+
+import javax.sql.DataSource;
 
 public class AplikasiTodolist {
 
     public static void main(String[] args) {
 
-        TodoListRepository todoListRepository = new TodolListRepositoryImpl();
+        DataSource dataSource = DatabaseUtil.getDataSource();
+        TodoListRepository todoListRepository = new TodolListRepositoryImpl(dataSource);
         TodoListService todoListService = new TodoListServiceImpl(todoListRepository);
         TodoListView todoListView = new TodoListView(todoListService);
 
