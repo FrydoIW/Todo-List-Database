@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="" />
+    <list default="true" id="08baaec4-fe06-4e6e-a6c9-7ecdf2286ca9" name="Changes" comment="Finishing migration to using mysql" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +37,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/PERSONAL PROJECT/Java Database To Do List/To Do List Database/TodoList-Database/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +48,92 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PERSONAL PROJECT\Java Database To Do List\To Do List Database\TodoList-Database\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AplikasiTodolist">
+    <configuration name="AplikasiTodolist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AplikasiTodolist" />
+      <module name="TodoList-Database" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImplTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImplTest.testGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoListRepositoryImplTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TodoList-Database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.TodoListRepositoryImplTest" />
+      <option name="METHOD_NAME" value="testRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AplikasiTodolist" />
+        <item itemvalue="JUnit.TodoListRepositoryImplTest.testGetAll" />
+        <item itemvalue="JUnit.TodoListRepositoryImplTest.testRemove" />
+        <item itemvalue="JUnit.TodoListRepositoryImplTest" />
+        <item itemvalue="JUnit.TodoListRepositoryImplTest.testAdd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,8 +142,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762632606651</updated>
-      <workItem from="1762632607779" duration="593000" />
+      <workItem from="1762632607779" duration="2204000" />
+      <workItem from="1762745413979" duration="1192000" />
+      <workItem from="1762758699462" duration="7000" />
+      <workItem from="1762792726861" duration="3924000" />
+      <workItem from="1762825779948" duration="4241000" />
     </task>
+    <task id="LOCAL-00001" summary="git merge origin main">
+      <option name="closed" value="true" />
+      <created>1762633372574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762633372575</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add project from existing source">
+      <option name="closed" value="true" />
+      <created>1762634137842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762634137842</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setting Hikari-Cp">
+      <option name="closed" value="true" />
+      <created>1762796196535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762796196535</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify add config using mysql">
+      <option name="closed" value="true" />
+      <created>1762798149980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762798149980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finishing migration to using mysql">
+      <option name="closed" value="true" />
+      <created>1762832485378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762832485378</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +216,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git merge origin main" />
+    <MESSAGE value="Add project from existing source" />
+    <MESSAGE value="Setting Hikari-Cp" />
+    <MESSAGE value="Modify add config using mysql" />
+    <MESSAGE value="Finishing migration to using mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing migration to using mysql" />
   </component>
 </project>
