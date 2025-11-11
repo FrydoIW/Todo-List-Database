@@ -18,7 +18,6 @@ public class AplikasiTodolist {
 
         todoListView.showTodoList();
 
-
     }
 
 }
